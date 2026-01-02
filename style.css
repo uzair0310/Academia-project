@@ -374,3 +374,121 @@ width: 50vw;
   font-size: 14px;
   color: #888;
 }
+/*responsive area 
+*/
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 992px) {
+  #top-bar {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .top-second {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .top-t {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links a {
+    padding: 10px 0;
+  }
+
+  #nav-button {
+    width: 100%;
+    clip-path: none;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .hero-section {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  #hero-content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #hero-content h1,
+  #hero-content p {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .about-left,
+  .about-right {
+    width: 100%;
+  }
+
+  .right-1 h1 {
+    width: 100%;
+  }
+
+  .line-text {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  #architect {
+    height: auto;
+  }
+
+  .archi-content {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+}
+@media (max-width: 576px) {
+  .browse-courses h2 {
+    font-size: 22px;
+  }
+
+  .course-box h4 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .post {
+    justify-content: center;
+  }
+
+  .newsletter input {
+    width: 90%;
+  }
+}
